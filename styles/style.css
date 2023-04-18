@@ -1,0 +1,222 @@
+@import url(./reset.css);
+@import url(./560px-or-more.css);
+@import url(./760px-or-more.css);
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+}
+
+/* NAVIGATION */
+#main-nav {
+  background-color: #007bff;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#main-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+#main-nav li {
+  margin: 0 10px;
+}
+
+#main-nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#main-nav li a:hover {
+  background-color: #0062cc;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.5551470588235294) 0%,
+    rgba(29, 225, 253, 0.4767156862745098) 53%,
+    rgba(245, 252, 69, 0.2862394957983193) 100%
+  );
+}
+
+/* HEADER */
+#main-header{
+	background: url('../images/jason-dent-itA0ybdIDTs-unsplash.jpg');
+}
+#main-header h1{
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	text-align: center;
+	font-size: 4rem;
+
+}
+#main-header h2{
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+#main-header button {
+  background-color: grey; 
+  color: #fff; 
+  font-size: 1.3rem; 
+  text-align: center !important;
+  padding: 20px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+ display: block;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+#main-header button:hover {
+  background-color: #0062cc; 
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.5551470588235294) 0%,
+    rgba(29, 225, 253, 0.4767156862745098) 53%,
+    rgba(245, 252, 69, 0.2862394957983193) 100%
+  ); 
+}
+/* MAIN CONTENT */
+#main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  font-size: 15px;
+
+}
+
+  #main-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  main {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+  }
+  
+  aside {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+  }
+
+
+/* MAIN */
+main {
+  grid-column: 2 / span 1;
+  grid-row: 1;
+}
+
+#figure-one img {
+
+	width: 100%;
+	height: 100px;
+	margin-top: 10px
+}
+
+#figure-one {
+    float: left;
+    margin-right: 20px;
+  }
+
+
+#figure-two img {
+
+	width: 100%;
+	height: 100px;
+	margin-top: 10px
+}
+
+#figure-two {
+    float: right;
+    margin-right: 20px;
+  }
+/* ASIDE */
+aside {
+  grid-column: 1 / span 1;
+  grid-row: 1;
+}
+aside h2{
+	text-align: center;
+	font-weight: 600;
+	font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #007bff;
+	border-top-left-radius:  15px;
+	border-top-right-radius:  15px;
+	height: 70px;
+	padding-top:  20px;
+	color: #fff;
+	margin-top: 32px;
+}
+aside ul li strong {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+aside ul li{
+	margin-top: 32px;
+}
+
+aside ul li:nth-child(2) {
+  background-color: #E0E0E0;}
+
+aside ul li:nth-child(4) {
+  background-color: #E0E0E0;
+}
+/* FOOTER */
+footer{
+background: url('../images/jason-dent-itA0ybdIDTs-unsplash.jpg');
+}
+#main-footer-content address {
+text-align: center;
+font-size: 18px;
+color: #fff;
+margin-top: 32px;
+justify-content: right
+
+}
+#main-footer-content-p {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 35px;
+color: #fff;
+}
+#logo img{
+  width: 100px;
+  height: 100px; 
+  display: block;
+  margin:  auto; 
+  transform: rotate(20deg);
+  border-radius: 15px;
+  float: 80%;
+  margin-right: 39rem;
+  display: flex;
+  justify-content: center;
+  }
+  
+ 
+  
+  
+  
+
